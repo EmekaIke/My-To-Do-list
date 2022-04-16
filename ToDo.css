@@ -1,0 +1,61 @@
+body{
+	background: #a36a3a;
+}
+h1{
+	color: #3c14bf;
+	text-align: center;
+	margin: 2rem;
+}
+.myList{
+	text-align: center;
+}
+
+.entry{
+	/*margin-right: 40vw;*/
+}
+
+p{
+	font-style: italic;
+	color: whitesmoke;
+}
+
+button{
+	/*border-radius: 25%;*/
+	background: springgreen;
+}
+.deleteBtn{
+	background: red;
+	color: white;
+}
+
+li{
+	margin-left: 38vw;
+	color: white;
+}
+
+.myButtons{
+	margin-left: 40vw;
+}
+
+@media only screen and (max-width:768px ){
+	li{
+		margin-left: 30vw;
+	}
+	.myButtons{
+		margin-left: 30vw;
+	}
+}
+
+@media only screen and (max-width:600px ){
+	p{
+		font-size: 90%;
+	}
+
+	li{
+		margin-left: 18vw;
+	}
+
+	.myButtons{
+		margin-left: 18vw;
+	}
+}
